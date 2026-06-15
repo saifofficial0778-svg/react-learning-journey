@@ -4,6 +4,8 @@ import Counter from './pages/counter';
 import TaskList from './pages/TaskList'
 import AdvanceTaskList from './pages/AdvancedTaskList';
 import AdmissionForm from './pages/AdmissionForm';
+import WeatherApp from './pages/WeatherApp';
+import DynamicUser from './pages/DynamicUser';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <Counter />
       <TaskList/>
       <AdvanceTaskList/> */}
-      <AdmissionForm/>
+      {/* <AdmissionForm/> */}
+      {/* <WeatherApp/> */}
+      <DynamicUser/>
     </div>
   );
 }
