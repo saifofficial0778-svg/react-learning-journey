@@ -6,6 +6,7 @@ import AdvanceTaskList from './pages/AdvancedTaskList';
 import AdmissionForm from './pages/AdmissionForm';
 import WeatherApp from './pages/WeatherApp';
 import DynamicUser from './pages/DynamicUser';
+import UserProfile from './pages/UserProfile';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
       <AdvanceTaskList/> */}
       {/* <AdmissionForm/> */}
       {/* <WeatherApp/> */}
-      <DynamicUser/>
+      {/* <DynamicUser/> */}
+      <UserProfile name="saif" city="bareilly"/>
+      
     </div>
   );
 }
