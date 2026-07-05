@@ -22,7 +22,7 @@ function TaskList(){
         <input 
           type="text" 
           value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)} // Jo bhi type karoge, state me ave hoga
+          onChange={(e) => setInputValue(e.target.value)} // Jo bhi type karoge, state me save hoga
           placeholder="Naya task likho..." 
           style={{ padding: "8px", width: "60%", marginRight: "10px" }}
         />
@@ -35,7 +35,7 @@ function TaskList(){
       <ul style={{ textAlign: "left", maxWidth: "300px", margin: "0 auto" }}>
         {tasks.map((task, index) => (
           <li key={index} style={{ padding: "5px 0", fontSize: "18px" }}>
-            🔹 {task}
+            [{index+1}] 🔹 {task}
           </li>
         ))}
       </ul>

@@ -12,15 +12,17 @@ function App() {
   return (
     <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
       <h1>🚀 React Logic Lab</h1>
-      {/* <Greeting name="Bhai" role="Frontend Developer"/>
+      <Greeting name="Bhai" role="Frontend Developer"/>
       <Greeting name="Saif" role="Backend Developer"/>
       <Counter />
       <TaskList/>
-      <AdvanceTaskList/> */}
+      <AdvanceTaskList/>
       {/* <AdmissionForm/> */}
       {/* <WeatherApp/> */}
       {/* <DynamicUser/> */}
-      <UserProfile name="saif" city="bareilly"/>
+      {/* <UserProfile name="saif" city="bareilly"/> */}
+      {/* <ExpenseDashboard/> */}
+      
       
     </div>
   );
