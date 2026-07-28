@@ -1,0 +1,14 @@
+.card{
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    background: gray;
+    color: rgb(11, 181, 25);
+    } 
+  .navbar{
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    background: rgb(207, 11, 76);
+    color: rgb(243, 131, 2);
+    }
